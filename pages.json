@@ -1,0 +1,77 @@
+{
+	"easycom": {
+			"autoscan": true,
+			// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+			"custom": {
+				"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+				"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+		    "^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+			}
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "贴吧"
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/circle/index",
+			"style": {
+				"navigationBarTitleText": "圈子"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#333333",
+			"selectedColor": "#d81e06",
+			"backgroundColor": "#ffffff",
+			"list": [
+				{
+					"pagePath": "pages/home/index", //页面路径
+					"text": "首页" ,//按钮文字
+					"iconPath": "static/home1.png", //图片路径
+					"selectedIconPath": "static/home2.png" //选中的图片路径
+				},
+				{
+					"pagePath": "pages/message/index",
+					"text": "消息",
+					"iconPath": "static/message1.png",
+					"selectedIconPath": "static/message2.png"
+				},
+				{
+					"pagePath": "pages/circle/index",
+					"text": "圈子",
+					"iconPath": "static/circle1.png",
+					"selectedIconPath": "static/circle2.png"
+				},
+				{
+					"pagePath": "pages/user/index",
+					"text": "我的",
+					"iconPath": "static/user1.png",
+					"selectedIconPath": "static/user2.png"
+				}
+		
+			]
+		
+		}
+}
