@@ -32,46 +32,78 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
-		}
+		},
+		{
+			"path": "pages/postDetail/index",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		},
+		{
+			"path": "pages/publishPost/index",
+			"style": {
+				"navigationBarTitleText": "发帖子"
+			}
+		},
+		{
+			"path": "pages/circleDetail/index",
+			"style": {
+				"navigationBarTitleText": "超话详情"
+			}
+		},
+		{
+			"path": "pages/newCircle/index",
+			"style": {
+				"navigationBarTitleText": "创建圈子"
+			}
+		},
+		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F8F8F8"
 	},
 	"uniIdRouter": {},
 	"tabBar": {
 		"color": "#333333",
-			"selectedColor": "#d81e06",
-			"backgroundColor": "#ffffff",
-			"list": [
-				{
-					"pagePath": "pages/home/index", //页面路径
-					"text": "首页" ,//按钮文字
-					"iconPath": "static/home1.png", //图片路径
-					"selectedIconPath": "static/home2.png" //选中的图片路径
-				},
-				{
-					"pagePath": "pages/message/index",
-					"text": "消息",
-					"iconPath": "static/message1.png",
-					"selectedIconPath": "static/message2.png"
-				},
-				{
-					"pagePath": "pages/circle/index",
-					"text": "圈子",
-					"iconPath": "static/circle1.png",
-					"selectedIconPath": "static/circle2.png"
-				},
-				{
-					"pagePath": "pages/user/index",
-					"text": "我的",
-					"iconPath": "static/user1.png",
-					"selectedIconPath": "static/user2.png"
-				}
-		
-			]
-		
-		}
+		"selectedColor": "#d81e06",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index", //页面路径
+				"text": "首页" ,//按钮文字
+				"iconPath": "static/home1.png", //图片路径
+				"selectedIconPath": "static/home2.png" //选中的图片路径
+			},
+			{
+				"pagePath": "pages/message/index",
+				"text": "消息",
+				"iconPath": "static/message1.png",
+				"selectedIconPath": "static/message2.png"
+			},
+			// {
+			// 	"pagePath": "pages/publishPost/index",
+			// 	// "text": "消息",
+			// 	"iconPath": "static/add.png",
+			// 	"selectedIconPath": "static/add.png"
+			// },
+			{
+				"pagePath": "pages/circle/index",
+				"text": "圈子",
+				"iconPath": "static/circle1.png",
+				"selectedIconPath": "static/circle2.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/user1.png",
+				"selectedIconPath": "static/user2.png"
+			}
+			
+	
+		]
+	
+	}
 }

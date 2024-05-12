@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-input": "../../uni_modules/uview-plus/components/u-input/u-input"
+  }
+}

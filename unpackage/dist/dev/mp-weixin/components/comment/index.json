@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-avatar": "../../uni_modules/uview-plus/components/u-avatar/u-avatar",
+    "likes": "../likes/index"
+  }
+}

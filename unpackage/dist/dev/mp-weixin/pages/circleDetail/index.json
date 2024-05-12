@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "超话详情",
+  "usingComponents": {
+    "up-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "up-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "post": "../../components/post/index"
+  }
+}

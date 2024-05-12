@@ -1,0 +1,1 @@
+<view class="search data-v-bcaca87a"><up-input wx:if="{{a}}" class="data-v-bcaca87a" u-i="bcaca87a-0" bind:__l="__l" u-p="{{a}}"></up-input></view>

@@ -1,0 +1,1 @@
+<label bindtap="{{e}}" class="{{['views', 'data-v-13d6de01', f && 'active']}}"><up-icon wx:if="{{a}}" class="data-v-13d6de01" u-i="13d6de01-0" bind:__l="__l" u-p="{{b}}"></up-icon><up-icon wx:else class="data-v-13d6de01" u-i="13d6de01-1" bind:__l="__l" u-p="{{c||''}}"></up-icon> {{d}}</label>

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "发帖子",
+  "usingComponents": {
+    "up-textarea": "../../uni_modules/uview-plus/components/u-textarea/u-textarea",
+    "up-upload": "../../uni_modules/uview-plus/components/u-upload/u-upload",
+    "up-grid-item": "../../uni_modules/uview-plus/components/u-grid-item/u-grid-item",
+    "up-grid": "../../uni_modules/uview-plus/components/u-grid/u-grid",
+    "up-toast": "../../uni_modules/uview-plus/components/u-toast/u-toast",
+    "up-button": "../../uni_modules/uview-plus/components/u-button/u-button"
+  }
+}
